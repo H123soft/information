@@ -223,9 +223,10 @@ def login():
     # 先查询出当前是否有指定手机号的用
     try:
         user = User.query.filter(User.mobile==mobile).first()
+        print(user)
     except Exception as e:
         current_app.logger.error(e)
-        return jsonify(errno=RET.DBERR,errmasg="查询数据错误我是login228")
+        return jsonify(errno=RET.DBERR,errmsg="查询数据错误我是login228")
 
     # 判断用户是否存在
     if not user:
