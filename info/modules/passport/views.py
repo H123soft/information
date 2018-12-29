@@ -1,7 +1,7 @@
 import random
 import re
 from datetime import datetime
-from flask import request, abort, logging, current_app, make_response, jsonify, json
+from flask import request, abort, logging, current_app, make_response, jsonify, json, session
 from info import constants, redis_store, db
 from info.libs.yuntongxun.sms import CCP
 from info.models import User
@@ -25,9 +25,11 @@ def register():
     param_dict = request.json
     mobile = param_dict.get("mobile")
     smscode = param_dict.get("smscode")
-    passworld = param_dict.get("passworld")
+    password = param_dict.get("password")
+    print(mobile, smscode, password)
     #  1.获取参数
-    if not all([mobile, smscode, passworld]):
+    if not all([mobile, smscode, password]):
+        print(mobile, smscode, password)
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
 
     # 2.校验手机号是否正确
@@ -44,6 +46,10 @@ def register():
     if not real_sms_code:
         return jsonify(errno=RET.NODATA, errmsg="验证码已过期")
     # 4.校验用户输入的短信验证码内容和真实验证吗内容是否一致
+    if real_sms_code:
+        real_sms_code = real_sms_code.decode()
+
+    print(real_sms_code, smscode)
     if real_sms_code != smscode:
         return jsonify(errno=RET.DATAERR, errmsg="验证码错误")
 
@@ -56,7 +62,7 @@ def register():
 
     # 对密码加密
     # 需求：在设置password 的时候，去对password进行加密，并且把加密结果 给 user.password_hash 赋值
-    user.password = passworld
+    user.password = password
     # 6.添加到数据库
     try:
         db.session.add(user)
@@ -121,6 +127,7 @@ def send_sms_code():
 
     # 4. 与用户的验证码内容进行对比，如果对比不一致，那么返回验证码输入错误
     if image_code.upper() != real_image_code.upper():
+        print(image_code, real_image_code)
         return jsonify(errno=RET.DATAERR, errmsg="验证码输入错误")
     # 4.1 校验该手机是否已经注册
     try:
@@ -188,3 +195,54 @@ def get_image_code():
     # 设置数据的类型，以便浏览器更加智能识别其是什么类型
     response.headers["Content-Type"] = "image/jpg"
     return response
+
+
+@passport_blu.route("/login", methods=["POST"])
+def login():
+    """
+    登录
+    1.获取参数
+    2.校验参数
+    3.校验密码是否正确
+    4.保存用户的登录信息
+    5. 返回响应
+    :return:
+    """
+    
+    # 1.获取参数
+    params_dict = request.json
+    mobile = params_dict.get("mobile")
+    passport = params_dict.get("passport")
+    # 2.校验参数
+    if not all([mobile,passport]):
+        return jsonify(errno=RET.PARAMERR,errmsg="参数错误我是login里面的")
+    # 3.校验手机号是否正确
+    if not re.match('1[35678]\\d{9}', mobile):
+        return jsonify(errno=RET.PARAMERR, errmsg="手机号格式不正确")
+    # 校验密码是否正确
+    # 先查询出当前是否有指定手机号的用
+    try:
+        user = User.query.filter(User.mobile==mobile).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR,errmasg="查询数据错误我是login228")
+
+    # 判断用户是否存在
+    if not user:
+        return jsonify(errno=RET.NODATA,errmsg="用户不存在我是login231")
+
+    # 校验登录的密码和当前用户的密码是否一致
+    if not user.check_passowrd(passport):
+        return jsonify(errno=RET.PWDERR,errmsg="用户名或者密码错误")
+
+    # 保存用户的登录状态
+    session["user_id"] = user.id
+    session["moblie"] = user.mobile
+    session["nick_name"] = user.nick_name
+    # 响应
+    return jsonify(errno=RET.OK,errmsg="登录成功")
+        
+
+    
+    
+        
