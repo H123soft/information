@@ -242,6 +242,21 @@ def login():
     session["nick_name"] = user.nick_name
     # 响应
     return jsonify(errno=RET.OK,errmsg="登录成功")
+
+
+@passport_blu.route("/logout")
+def logout():
+    """
+    退出登录
+    :return:
+    """
+    # pop 是移除session中的数据
+    # pop 会有一个返回值，如果要移除的key不存在，就会返回None
+    session.pop("user_id",None)
+    session.pop("mobile",None)
+    session.pop("nick_name",None)
+    return jsonify(errno=RET.OK,errmsg="退出成功")
+
         
 
     
