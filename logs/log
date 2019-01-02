@@ -4295,3 +4295,30 @@ INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:47:41] "GET /static/news/imag
 INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:47:41] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:47:41] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:47:41] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:52:15] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:52:15] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:52:15] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:52:15] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:52:15] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [02/Jan/2019 22:52:16] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
