@@ -30,11 +30,10 @@ def comment_like():
     comment_id = request.json.get("comment_id")
     action = request.json.get("action")
     # 判断参数
-    if not all([comment_id,action]):
+    if not all([comment_id, action]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
     if action not in (["add", "remove"]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
-
 
     try:
         comment_id = int(comment_id)
@@ -228,10 +227,30 @@ def news_detail(news_id):
     except Exception as e:
         current_app.logger.error(e)
 
+    comment_like_ids = []
+    if g.user:
+        try:
+            # 需求：查询当前用户在当前新闻里面都点赞了那些评论
+            # 1. 查询出当前新闻的所有评论([comment]) 取到所有的评论id
+            comment_ids = [comment.id for comment in comments]
+            # 2. 在查询当前评论中有哪些评论被当前用户所点赞（【comment_like】）查询comment_id 在第一步的评论id列表内的所有数据 commentLike.user_id =g.user.id
+            comment_likes = CommentLike.query.filter(CommentLike.comment_id.in_(comment_ids),
+                                                     CommentLike.user_id == g.user.id).all()
+            # 3. 取到所有被点赞的评论id 第2步查询出来是一个 【commentLike】--->[3,5]
+            comment_like_ids = [comment_like.comment_id for comment_like in comment_likes]
+        except Exception as e:
+            current_app.logger.error(e)
+
     comment_dict_li = []
 
     for comment in comments:
         comment_dict = comment.to_dict()
+
+        # 代表没有点赞
+        comment_dict["is_like"] = False
+        # 判断当前遍历的评论是否被当前登录用户所点赞
+        if comment.id in comment_like_ids:
+            comment_dict["is_like"] = True
         comment_dict_li.append(comment_dict)
 
     data = {

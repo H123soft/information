@@ -5513,3 +5513,381 @@ INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:43:34] "GET /news/149 HTTP/1.
 INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:43:34] "GET /favicon.ico HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:43:35] "GET /news/149 HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:43:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:45] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:45] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:45] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:45] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:45] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:47] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 21:52:49] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:10] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:10] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 22:53:36] "GET /news/149?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\news\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:51] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:52] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:52] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:55] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:57] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:01:57] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:08] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:08] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:10] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:15] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:16] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:17] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:23] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:24] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:25] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:26] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:28] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:28] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:30] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:02:47] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:03:06] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:03:25] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:06:07] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:06:15] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:13] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:27] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:32] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:33] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:34] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:34] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:36] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:38] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:42] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:44] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:45] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:47] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:47] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:49] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:49] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:50] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:51] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:52] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:54] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:56] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:58] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:14:59] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:01] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:08] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:08] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:09] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:09] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:09] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:10] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:12] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:13] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:13] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:15:38] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:26] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:26] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:28] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:30] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:31] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:32] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:32] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:32] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:33] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:33] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:16:34] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:18:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:18:53] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:05] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:05] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:05] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:18] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /news/149 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:19:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:35] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:35] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:36] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:36] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:36] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:38] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:39] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:42] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:42] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:43] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:43] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:43] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:46] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:47] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:48] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:49] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:49] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:51] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:52] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:53] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:54] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:56] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:58] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:58] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:58] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:58] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:59] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:22:59] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:00] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:01] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:01] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:02] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:03] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:04] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:04] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:05] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:05] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:06] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:06] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:07] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:08] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:08] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:09] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:09] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:10] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:24] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:24] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:24] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:24] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:25] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:28] "GET /news/1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:37] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:38] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:39] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:40] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:41] "POST /news/comment_like HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [03/Jan/2019 23:23:42] "POST /news/comment_like HTTP/1.1" 200 -
