@@ -50,7 +50,9 @@
                 {% block authorBlock %}
             
             {% endblock %}
-            <div class="rank_title">
+            
+            {% block rankBlock %}
+                <div class="rank_title">
                 <h3>点击排行</h3>
                 </div>
                     <ul class="rank_list">
@@ -60,6 +62,8 @@
 
                 </ul>
             </div>
+            {% endblock %}
+
 
     </div>
     <div class="footer">

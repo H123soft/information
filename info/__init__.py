@@ -7,7 +7,7 @@
 """
 from logging.handlers import RotatingFileHandler
 from flask import Flask
-from config import Config, config
+from config import config
 from flask_wtf.csrf import generate_csrf
 
 
@@ -85,4 +85,9 @@ def create_app(config_name):
     # 注册新闻详情页信息的蓝图
     from info.modules.news import news_blu
     app.register_blueprint(news_blu)
+
+    from info.modules.profile import profile_blu
+    app.register_blueprint(profile_blu)
+
+
     return app
