@@ -25,15 +25,14 @@
         </ul>
 
 
-
         <div id="pagination" class="page"></div>
         <script>
             $(function() {
                 $("#pagination").pagination({
                     currentPage: {{ data.current_page }},
-                    totalPage: {{ data.total_page }},
+                    totalPage: {{ data.total }},
                     callback: function(current) {
-                        location.href="/collection?p="+current;
+                        location.href="/user/collection?p="+current;
                     }
                 });
             });
