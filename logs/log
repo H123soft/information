@@ -6327,3 +6327,177 @@ INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 651-103-556
 INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\profile\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:20:54] "GET /user/base_info?signature=%E5%93%88%E5%93%88&gender=on HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:20:54] "GET /user/base_info?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:20:54] "GET /user/base_info?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:20:54] "GET /user/base_info?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:20:54] "GET /user/base_info?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:20:54] "GET /user/base_info?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:44] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:46] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:56] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:56] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:56] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:22:56] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:23:10] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:23:10] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:23:10] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:23:10] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:23:21] "GET /user/base_info?signature=%E5%93%88%E5%93%88&gender=on HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:27:33] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:27:33] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:27:33] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:32] "GET /user/base_info?signature=%E5%93%88%E5%93%88&gender=on HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:32] "GET /user/base_info?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:32] "GET /user/base_info?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:32] "GET /user/base_info?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:32] "GET /user/base_info?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:32] "GET /user/base_info?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /user/info HTTP/1.1" 302 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:36] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:39] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:49] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:49] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:49] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:49] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:56] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:56] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:56] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:28:56] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:29:05] "GET /user/base_info?signature=%E5%93%88%E5%93%88&gender=on HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:29:28] "GET /user/base_info?signature=%E5%93%88%E5%93%88&gender=on HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:30:01] "GET /user/base_info?signature=&gender=on HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:32:28] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:32:28] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:32:38] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:32:38] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:32:46] "GET /user/base_info?signature=%E5%93%88%E5%93%88&gender=MAN HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:34:34] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:34:34] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:34:43] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:34:43] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:34:56] "GET /user/base_info?signature=123456&gender=MAN HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:35:23] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:35:23] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:35:23] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/images/user_pic.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:37:01] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:38:43] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:38:43] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:38:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:39:36] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:39:41] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:40:14] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:40:26] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:40:26] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:40:26] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:40:33] "POST /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:45:06] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:45:06] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:45:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:45:07] "GET /user/info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:45:07] "GET /user/base_info HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [04/Jan/2019 11:45:07] "GET /favicon.ico HTTP/1.1" 200 -
