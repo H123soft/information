@@ -7,9 +7,9 @@
 """
 from qiniu import Auth, put_data
 
-access_key = "yV4GmNBLOgQK-1Sn3o4jktGLFdFSrlywR2C-hvsW"
-secret_key = "bixMURPL6tHjrb8QKVg2tm7n9k8C7vaOeQ4MEoeW"
-bucket_name = 'ihome'
+access_key = "7BIHXUv57kbqjDhkTcfr0gYcITgHZIVCN7E8NHMd"
+secret_key = "E7xwO3iLVCVtOhJjQf_rKQ8Mb2di-2bd7uNAvM15"
+bucket_name = 'tangzhen'
 
 
 def storage(data):
