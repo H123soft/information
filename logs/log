@@ -10372,3 +10372,81 @@ INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 19:51:00] "GET / HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 19:51:00] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
 INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 19:51:00] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:16] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:16] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:24] "GET /4444?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:07:30] "GET /444 HTTP/1.1" 404 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:08:15] "GET /4444 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:08:15] "GET /static/news/images/not_found.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:09:17] "GET /4444 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:10:20] "GET /index.html HTTP/1.1" 404 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:12:51] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:12:51] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:12:56] "GET /4444 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:25] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:28] "GET /4444 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:30] "GET /index.html HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:47] "GET /index.html HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:47] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:48] "GET /index.html HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:48] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:50] "GET /index.html HTTP/1.1" 404 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:55] "GET /4444 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:56] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:14:56] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:32] "GET /4444 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:34] "GET /5464654869?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225 HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:16:43] "GET /225?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:17:22] "GET /225 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:17:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:17:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 20:17:41] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -

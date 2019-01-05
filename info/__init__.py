@@ -6,10 +6,9 @@
 @File:__init__.py.py
 """
 from logging.handlers import RotatingFileHandler
-from flask import Flask
+from flask import Flask, render_template, g
 from config import config
 from flask_wtf.csrf import generate_csrf
-
 
 from redis import StrictRedis
 from flask_sqlalchemy import SQLAlchemy
@@ -65,14 +64,22 @@ def create_app(config_name):
 
     # 添加自定义过滤器
     from info.utils.common import to_index_class
-    app.add_template_filter(to_index_class,"index_class")
+    app.add_template_filter(to_index_class, "index_class")
+
+    from info.utils.common import user_login_data
+    
+    @app.errorhandler(404)
+    @user_login_data
+    def page_not_fount(e):
+        data = {"user": g.user.to_dict()}
+        return render_template("news/404.html", data=data)
 
     @app.after_request
     def after_response(response):
         # 生成随机的csrf_token的值
         csrf_token = generate_csrf()
         # 设置一个cookie
-        response.set_cookie("csrf_token",csrf_token)
+        response.set_cookie("csrf_token", csrf_token)
         return response
 
     # 注册蓝图
@@ -88,6 +95,5 @@ def create_app(config_name):
 
     from info.modules.profile import profile_blu
     app.register_blueprint(profile_blu)
-
 
     return app
