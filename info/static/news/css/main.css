@@ -623,6 +623,19 @@ body{
     overflow:hidden;
 }
 
+.collected{
+    display:inline-block;
+    width:100px;
+    height:36px;
+    color:#666;
+    border-radius:4px;
+    font-size:14px;
+    margin:0 5px;
+    background:url(../images/collect_icons.png) 15px -73px no-repeat #e6e6e6;
+    position:relative;
+    overflow:hidden;
+}
+
 .block-center {
     display: block;
     margin: 0 auto;
@@ -654,18 +667,7 @@ body{
 }
 
 
-.collected{
-    display:inline-block;
-    width:100px;
-    height:36px;
-    color:#666;
-    border-radius:4px;
-    font-size:14px;
-    /*margin:0px 5px;*/
-    background:url(../images/collect_icons.png) 15px -73px no-repeat #e6e6e6;
-    position:relative;
-    overflow:hidden;
-}
+
 
 .collected:hover{
     background-position:10px -73px;

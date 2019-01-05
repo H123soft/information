@@ -34,7 +34,7 @@ def news_list():
         current_app.logger.error(e)
         return jsonify(errno=RET.PARAMERR, errmsg="参数")
 
-    filters = []
+    filters = [News.status == 0]
     if cid != 1:  # 查询的不是最新的数据
         # 需要添加条件
         filters.append(News.category_id == cid)
@@ -82,7 +82,7 @@ def index():
     #         user = User.query.get(user_id)
     #     except Exception as e:
     #         current_app.logger.error(e)
-    user= g.user
+    user = g.user
 
     # 右侧的新闻排行的逻辑
     news_list = []
@@ -106,7 +106,7 @@ def index():
     data = {
         "user": user.to_dict() if user else None,
         "news_dict_li": news_dict_li,
-        "category_li":category_li
+        "category_li": category_li
     }
 
     return render_template("news/index.html", data=data)

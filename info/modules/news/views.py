@@ -29,10 +29,10 @@ def comment_like():
     # 1.获取请求参数
     comment_id = request.json.get("comment_id")
     action = request.json.get("action")
-    # 判断参数
+    # 2.判断参数
     if not all([comment_id, action]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
-    if action not in (["add", "remove"]):
+    if action not in ["add", "remove"]:
         return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
 
     try:
@@ -60,8 +60,10 @@ def comment_like():
             comment_like_model.user_id = user.id
             comment_like_model.comment_id = comment.id
             db.session.add(comment_like_model)
+            # 更新点赞次数
+            comment.like_count += 1
     else:
-        # 取消评论
+        # 取消dz评论
         comment_like_model = CommentLike.query.filter(CommentLike.user_id == user.id,
                                                       CommentLike.comment_id == comment.id).first()
         if comment_like_model:
@@ -86,6 +88,7 @@ def comment_news():
     user = g.user
     if not user:
         return jsonify(errno=RET.SESSIONERR, errmsg="用户未登录")
+    # 1.取到参数
     news_id = request.json.get("news_id")
     comment_content = request.json.get("comment")
     parent_id = request.json.get("parent_id")
@@ -98,7 +101,7 @@ def comment_news():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.PARAMERR, errmsg="参数不足")
-        # 3.查询新闻并判断新闻是否存在
+    # 3.查询新闻并判断新闻是否存在
     try:
         news = News.query.get(news_id)
     except Exception as e:

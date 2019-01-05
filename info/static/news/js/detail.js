@@ -190,6 +190,9 @@ $(function(){
                         // 更新点赞按钮图标
                         var like_count = $this.attr('data-likecount')
                         // 更新点赞按钮图标
+                        if (like_count == undefined) {
+                            like_count = 0
+                        }
                         if (action == "add") {
                             like_count = parseInt(like_count) + 1
                             // 代表是点赞

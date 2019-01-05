@@ -1,6 +1,5 @@
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
-
 from info import constants
 from info import db
 
@@ -44,7 +43,6 @@ class User(BaseModel, db.Model):
             "WOMAN"  # 女
         ),
         default="MAN")
-
 
     # 当前用户收藏的所有新闻
     collection_news = db.relationship("News", secondary=tb_user_collection, lazy="dynamic")  # 用户收藏的新闻
