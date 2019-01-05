@@ -10615,3 +10615,103 @@ INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 651-103-556
 INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:22] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:22] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:23] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:23] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:24] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:24] "GET /admin/index HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 21:56:24] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:08] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:18] "GET /passport/logout HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:18] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:20] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:29] "POST /passport/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:29] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:29] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:36] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:47] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:47] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:48] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:48] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:48] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:49] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:49] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:31:49] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:36:43] "POST /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:38:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:38:19] "GET /news_list?cid=1&page=1 HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:38:26] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:41:07] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:41:07] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:41:08] "GET /admin/login HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [05/Jan/2019 22:41:08] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\admin\\__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Detected change in 'D:\\Python\\Python36\\Infromtion\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 651-103-556
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
