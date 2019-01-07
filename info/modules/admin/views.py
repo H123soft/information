@@ -8,7 +8,7 @@
 from datetime import datetime, timedelta
 import time
 from flask import render_template, request, current_app, session, redirect, url_for, g, jsonify, abort
-from info import constants
+from info import constants, db
 from info.models import User, News, Category
 from info.modules.admin import admin_blu
 from info.utils.common import user_login_data
@@ -16,33 +16,59 @@ from info.utils.image_storage import storage
 from info.utils.response_code import RET
 
 
-@admin_blu.route("/news_type")
+@admin_blu.route("/news_type", methods=["GET", "POST"])
 def news_type():
-    try:
-        categories = Category.query.all()
-    except Exception as e:
-        current_app.logger.error(e)
-        return render_template('admin/news_type.html', errmsg="查询数据错误")
+    if request.method == "GET":
+        try:
+            categories = Category.query.all()
+        except Exception as e:
+            current_app.logger.error(e)
+            return render_template('admin/news_type.html', errmsg="查询数据错误")
 
-    category_dict_li = []
-    for category in categories:
-        # 取到分类的字典
-        cate_dict = category.to_dict()
-        category_dict_li.append(cate_dict)
+        category_dict_li = []
+        for category in categories:
+            # 取到分类的字典
+            cate_dict = category.to_dict()
+            category_dict_li.append(cate_dict)
 
-    # 移除最新的分类
-    category_dict_li.pop(0)
+        # 移除最新的分类
+        category_dict_li.pop(0)
 
-    data = {
-        "categories": category_dict_li
-    }
+        data = {
+            "categories": category_dict_li
+        }
 
-    return render_template('admin/news_type.html', data=data)
+        return render_template('admin/news_type.html', data=data)
+
+    # 新增或者添加分类
+    # 1.取到参数
+    cname = request.json.get("name")
+    # 2. 如果传cid，代表是编辑以分类存在
+    cid = request.json.get("id")
+    if not cname:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    if cid:
+        # 有 分类id 代表查询相关分类
+        try:
+            cid = int(cid)
+            category = Category.query.get(cid)
+        except Exception as e:
+            current_app.logger.error(e)
+            return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+        if not category:
+            return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+        category.name = cname
+    else:
+        category = Category()
+        category.name = cname
+        db.session.add(category)
+
+    return jsonify(errno=RET.OK, errmsg="OK")
 
 
-@admin_blu.route("/news_edit_detail",methods=["GET","POST"])
+@admin_blu.route("/news_edit_detail", methods=["GET", "POST"])
 def news_edit_detail():
-    if request.method =="GET":
+    if request.method == "GET":
         # 查询点击的新闻的相关数据并传入到模板中
         news_id = request.args.get("news_id")
         if not news_id:
@@ -72,7 +98,7 @@ def news_edit_detail():
             cate_dict = category.to_dict()
             # 判断当前遍历到的分类是否是当前新闻的分类，如果是，则添加is_selected 为True
             if category.id == news.category_id:
-                cate_dict["is_selected"]=True
+                cate_dict["is_selected"] = True
             category_dict_li.append(cate_dict)
 
         category_dict_li.pop(0)
@@ -127,8 +153,6 @@ def news_edit_detail():
     news.category_id = category_id
 
     return jsonify(errno=RET.OK, errmsg="OK")
-
-
 
 
 @admin_blu.route("/news_edit")
