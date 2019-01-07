@@ -15,6 +15,54 @@ from info.utils.common import user_login_data
 from info.utils.response_code import RET
 
 
+@news_blu.route('/followed_user', methods=["POST"])
+@user_login_data
+def followed_user():
+    """关注或者取消关注用户"""
+
+    # 0. 取到自己的登录信息
+    user = g.user
+    if not user:
+        return jsonify(errno=RET.SESSIONERR, errmsg="未登录")
+
+    # 1. 取参数
+    user_id = request.json.get("user_id")
+    action = request.json.get("action")
+
+    if not all([user_id, action]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+
+    # 2. 判断参数
+    if action not in ("follow", "unfollow"):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+
+    # 3. 取到要被关注的用户
+    try:
+        other = User.query.get(user_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg="数据查询错误")
+
+    if not other:
+        return jsonify(errno=RET.NODATA, errmsg="未查询到数据")
+
+    # 4. 根据要执行的操作去修改对应的数据
+    if action == "follow":
+        if other not in user.followed:
+            # 当前用户的关注列表添加一个值
+            user.followed.append(other)
+        else:
+            return jsonify(errno=RET.DATAEXIST, errmsg="当前用户已被关注")
+    else:
+        # 取消关注
+        if other in user.followed:
+            user.followed.remove(other)
+        else:
+            return jsonify(errno=RET.DATAEXIST, errmsg="当前用户未被关注")
+
+    return jsonify(errno=RET.OK, errmsg="操作成功")
+
+
 @news_blu.route("/comment_like", methods=["POST"])
 @user_login_data
 def comment_like():
@@ -262,14 +310,13 @@ def news_detail(news_id):
         # if user 是否关注过news.user
         if news.user in user.followed:
             is_followed = True
-        
 
     data = {
         "news_dict_li": news_dict_li,
         "user": user.to_dict() if user else None,
         "news": news.to_dict(),
         "is_collected": is_collected,
-        "is_followed":is_followed,
+        "is_followed": is_followed,
         "comments": comment_dict_li
     }
     return render_template("news/detail.html", data=data)
