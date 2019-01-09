@@ -37,7 +37,7 @@ def register():
         return jsonify(errno=RET.PARAMERR, errmsg="手机号格式不正确")
 
     try:
-        real_sms_code = redis_store.get("SMS_" + mobile)
+        real_sms_code = redis_store.get("SMS_" + mobile)     # "SMS_" + mobile
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="数据查询失败")
@@ -114,7 +114,7 @@ def send_sms_code():
         return jsonify(errno=RET.PARAMERR, errmsg="手机号格式不正确")
         # 3. 先从redis中取出真实的验证码内容
     try:
-        real_image_code = redis_store.get("ImageCodeId_" + image_code_id)
+        real_image_code = redis_store.get("ImageCodeId_" + image_code_id)        # "ImageCodeId_" + image_code_id
         if real_image_code:
             real_image_code = real_image_code.decode()
             redis_store.delete("ImageCode_" + image_code_id)

@@ -73,7 +73,6 @@ def news_edit_detail():
         news_id = request.args.get("news_id")
         if not news_id:
             abort(404)
-
         try:
             news_id = int(news_id)
         except Exception as e:
@@ -172,7 +171,7 @@ def news_edit():
 
     filters = [News.status == 0]
     # 如果关键字存在，就搜索关键字新闻
-    if keywords:
+    if keywords:               
         filters.append(News.title.contains(keywords))
 
     try:
@@ -190,7 +189,7 @@ def news_edit():
     for news in news_list:
         news_dict_list.append(news.to_basic_dict())
 
-    context = {"total_page": total_page, "current_page": current_page, "news_list": news_dict_list}
+    context = {"total_page": total_page, "current_page": current_page, "news_list": news_dict_list,"keywords":keywords}
 
     return render_template('admin/news_edit.html', data=context)
 
@@ -267,6 +266,7 @@ def news_review():
         filters.append(News.title.contains(keywords))
 
     try:
+
         paginate = News.query.filter(*filters) \
             .order_by(News.create_time.desc()) \
             .paginate(page, constants.ADMIN_NEWS_PAGE_MAX_COUNT, False)
@@ -342,7 +342,7 @@ def user_count():
         mon_count = User.query.filter(User.is_admin == False, User.create_time > begin_mon_date).count()
     except Exception as e:
         current_app.logger.error(e)
-    #
+    # 日新增数
     day_count = 0
     begin_day_date = datetime.strptime(('%d-%02d-%02d' % (t.tm_year, t.tm_mon, t.tm_mday)), "%Y-%m-%d")
     try:
@@ -423,3 +423,13 @@ def login():
 
     #  跳转页面
     return redirect(url_for("admin.index"))
+
+
+@admin_blu.route("/logout")
+def logout():
+    """退出登录管理员用户"""
+    session.pop("user_id", None)
+    session.pop("is_admin", None)
+    session.pop("nick_name", None)
+    session.pop("moblie", None)
+    return redirect(url_for("admin.login"))

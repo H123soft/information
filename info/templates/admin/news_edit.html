@@ -53,7 +53,7 @@
             currentPage: {{ data.current_page }},
             totalPage: {{ data.total_page }},
             callback: function (current) {
-                window.location = '/admin/news_edit?p=' + current
+                window.location = '/admin/news_edit?p=' + current+"&keywords={{  data.keywords }}"
             }
         });
     });

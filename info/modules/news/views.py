@@ -130,7 +130,7 @@ def comment_like():
 @user_login_data
 def comment_news():
     """
-    评论新闻或者回复某条新闻下制动的评论
+    评论新闻或者回复某条新闻下指定的评论
     :return:
     """
     user = g.user
