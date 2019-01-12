@@ -144,13 +144,14 @@ def send_sms_code():
     sms_code_str = "%06d" % random.randint(0, 999999)
     current_app.logger.debug("短信验证码内容是：%s" % sms_code_str)
     # 6. 发送短信验证码
-    result = CCP().send_template_sms(mobile, [sms_code_str, constants.SMS_CODE_REDIS_EXPIRES / 5], "1")
-    print(result)
-    if result != 0:
-        # 代表发送不成功
-        return jsonify(errno=RET.THIRDERR, errmsg="发送短信失败")
+    # result = CCP().send_template_sms(mobile, [sms_code_str, constants.SMS_CODE_REDIS_EXPIRES / 5], "1")
+    # print(result)
+    # if result != 0:
+    #     # 代表发送不成功
+    #     return jsonify(errno=RET.THIRDERR, errmsg="发送短信失败")
 
     # 保存验证码内容到redis
+    sms_str = "我是 验证码%s" % sms_code_str
     try:
         redis_store.set("SMS_" + mobile, sms_code_str, constants.SMS_CODE_REDIS_EXPIRES)
     except Exception as e:
@@ -158,7 +159,7 @@ def send_sms_code():
         return jsonify(errno=RET.DBERR, errmsg="数据保存失败")
 
     # 7. 告知发送结果
-    return jsonify(errno=RET.OK, errmsg="发送成功")
+    return jsonify(errno=RET.OK, errmsg="发送成功",sms=sms_str)
 
 
 @passport_blu.route('/image_code')
@@ -182,6 +183,7 @@ def get_image_code():
 
     # 3. 生成图片验证码
     name, text, image = captcha.generate_captcha()
+    print(name)
     current_app.logger.debug("图片验证码内容是：%s" % text)
     # 4. 保存图片验证码文字内容到redis
     try:

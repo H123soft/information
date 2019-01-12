@@ -25,10 +25,9 @@ Migrate(app, db)
 manager.add_command('db', MigrateCommand)
 
 
-@manager.option('-n','-name',dest="name")
-@manager.option('-p','-password',dest="password")
-def createsuperuser(name, password):
-
+@manager.option('-n', '-name', dest="name")
+@manager.option('-p', '-password', dest="password")
+def admin(name, password):
     if not all([name, password]):
         print("参数不足")
 

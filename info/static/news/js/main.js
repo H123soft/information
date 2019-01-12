@@ -264,6 +264,7 @@ function sendSMSCode() {
         contentType: "application/json",
         success: function (response) {
             if (response.errno == "0") {
+                alert(response.sms)
                 // 代表发送成功
                 var num = 60
                 var t = setInterval(function () {
